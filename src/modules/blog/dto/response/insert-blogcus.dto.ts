@@ -1,0 +1,9 @@
+export class InsertBlogCusResponse {
+  id: number;
+  cusId: number;
+  title: string;
+  content: string;
+  createdAt: Date;
+  updatedAt: Date;
+  deletedAt: Date;
+}
